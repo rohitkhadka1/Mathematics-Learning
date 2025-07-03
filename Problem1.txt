@@ -1,0 +1,31 @@
+🧠 Problem: Area Distortion by Linear Transformation
+You’re given a 2D triangle in space with vertices:
+A=(0,0)A = (0, 0)A=(0,0)
+
+
+B=(1,0)B = (1, 0)B=(1,0)
+
+
+C=(0,1)C = (0, 1)C=(0,1)
+
+
+This forms a right triangle with area = 0.5.
+You are then given a linear transformation matrix TTT that you must apply to all three points of the triangle:
+T=[2113]T = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}T=[21​13​]
+Your task:
+Apply the transformation TTT to all three vertices.
+
+
+Compute the area of the new triangle formed by the transformed points.
+
+
+Compare the new area with the original. Does the result match the determinant of TTT?
+
+
+Plot both triangles (before and after transformation) for visual comparison.
+
+
+
+✅ Bonus:
+Can you generalize the area scaling for any triangle under a 2D transformation?
+
