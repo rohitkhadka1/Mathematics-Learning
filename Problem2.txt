@@ -1,0 +1,41 @@
+📘 PRACTICE PROBLEM: Four Fundamental Subspaces (CS Student Edition)
+
+You are given a data matrix A ∈ ℝ⁴ˣ⁵, where each row is a data point and each column is a feature.
+
+Let:
+A = [
+  [1, 2, 3, 4, 5],
+  [2, 4, 6, 8, 10],
+  [1, 0, 1, 0, 1],
+  [3, 6, 9, 12, 15]
+]
+
+🔧 Tasks:
+
+1. Column Space (C(A))
+   - Find a basis for the column space of A.
+   - What is the dimension of the column space?
+   - What does this tell you about the effective number of features?
+
+2. Null Space (N(A))
+   - Find a basis for the null space of A, i.e., solve A·x = 0.
+   - Interpret this in terms of feature redundancy.
+
+3. Row Space (C(Aᵀ))
+   - Find a basis for the row space of A.
+   - What is the rank of A? Does it match the rank from the column space?
+
+4. Left Null Space (N(Aᵀ))
+   - Find a basis for the left null space of A.
+   - Interpret this in terms of data redundancy.
+
+💡 Interpretation:
+- How many linearly independent features are there?
+- How many linearly independent data points are there?
+- If you were to compress this dataset using PCA, what would be the minimal number of components needed?
+
+🧪 Bonus:
+Write a Python function using NumPy or SymPy to compute:
+- Basis for null space and left null space
+- Rank of the matrix
+- Column and row spaces
